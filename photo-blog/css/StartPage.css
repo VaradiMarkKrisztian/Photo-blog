@@ -1,0 +1,36 @@
+:root{
+    --color-primary-variant: #585467;
+    --color-white: white;
+    --color-gray-900: #1e1e66;
+    --card-border-radius-1: 0.3rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    appearance: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    
+    line-height: 1.6;
+    color: var(--color-gray-200);
+    background: var(--color-bg);
+    font-size: 0.9rem;
+    background-image: url("flower.png");
+}
+
+.StartPage-cardbox{
+    /*si in spate adauga o poza mai tarziu*/
+    margin-top: 20rem;
+    border-radius: var(--card-border-radius-1);
+    border: solid var(--color-gray-900);
+    margin-bottom: 1.6rem;
+    text-align: center;
+    background-color: var(--color-white);
+}
